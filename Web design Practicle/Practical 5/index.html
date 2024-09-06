@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Admission Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="form-container">
+    <h2>College Admission Form</h2>
+    <form action="#" method="post">
+      <!-- Personal Details -->
+      <div class="form-group">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Create Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+
+      <!-- Course Details -->
+      <div class="form-group">
+        <label for="course">Choose Course:</label>
+        <select id="course" name="course" required>
+          <option value="" disabled selected>Select Course</option>
+          <option value="bsc hons">BSc Hons.</option>
+          <option value="ba">B.A.</option>
+          <option value="bcom">B.Com</option>
+          <option value="bvoc">B.Voc.</option>
+        </select>
+      </div>
+
+      <!-- Gender -->
+      <div class="form-group">
+        <label class="Gendertitle">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+      </div>
+
+      <!-- Additional Options -->
+      <div class="form-group">
+        <label class="Hobbytitle">Hobbies:</label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="music" name="hobbies" value="music">
+        <label for="music">Music</label>
+      </div>
+
+      <!-- Submit and Reset buttons -->
+      <div class="form-group">
+        <button type="submit" class="btn submit-btn">Submit</button>
+        <button type="reset" class="btn reset-btn">Reset</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>

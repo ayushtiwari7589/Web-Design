@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>resturant Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@500&family=Roboto:ital,wght@500&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Poppins, "Sans-serif";
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+
+    /* Hero Section */
+
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f7fcca;
+    }
+
+
+    section .blur_clr {
+      position: absolute;
+      filter: blur(5.5vh);
+    }
+
+    section .blur_clr:nth-child(1) {
+      background-color: #fffd87;
+      height: 50vh;
+      width: 50vh;
+      right: -5vh;
+      top: -25vh;
+
+    }
+
+    section .blur_clr:nth-child(2) {
+      background-color: #fffd87;
+      height: 40vh;
+      width: 40vh;
+      left: -10vh;
+      bottom: -20vh;
+    }
+
+    header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 30px 100px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+    }
+
+
+
+    header .logo {
+      position: relative;
+      font-size: 2.5rem;
+      color: #8a2535;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 1px;
+      font-weight: 700;
+    }
+
+    header .nav {
+      list-style: none;
+      display: flex;
+      margin: 0 30px;
+    }
+
+    header .nav li {
+      margin: 0 30px;
+
+    }
+
+    header .nav li a {
+      color: #8a2535;
+      border-radius: 25px;
+      font-size: 18px;
+
+
+    }
+
+
+
+
+    header button {
+      width: 100px;
+      height: 30px;
+      background-color: #8a2535;
+      border-radius: 50px;
+      border: #8a2535;
+
+    }
+
+    header .signup a {
+      color: white;
+      font-size: 18px;
+
+    }
+
+
+    header .nav li a,
+    header .signup a {
+      text-decoration: none;
+
+    }
+
+
+    /* Main section */
+
+
+    main .content {
+      position: absolute;
+      left: 10rem;
+      width: 20rem;
+      height: 20rem;
+
+    }
+
+    #title {
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+    }
+
+    .details {
+      margin: 0.4rem;
+
+    }
+
+    #order-button {
+      width: 80px;
+      height: 20px;
+      background-color: #8a2535;
+      border-radius: 30px;
+      border: #8a2535;
+    }
+
+    #order-button a {
+      color: white;
+      text-decoration: none;
+    }
+
+
+
+    .burger_image1 {
+      width: 50%;
+      height: 50%;
+      opacity: 0.5;
+    }
+
+
+    .boxInfo {
+      position: absolute;
+      left: 100px;
+      display: flex;
+      margin-top: 100px;
+    }
+
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box {
+      margin-left: 50px;
+    }
+
+    .Info {
+      margin-left: 5px;
+    }
+  </style>
+
+
+
+
+
+
+</head>
+
+<body>
+
+  <section>
+    <div class="blur_clr"></div>
+    <div class="blur_clr"></div>
+
+    <header>
+      <div class="logo">
+        <i class="fa-solid fa-burger"></i>
+      </div>
+
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">AboutUs</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <button class="signup"><a href="#">sign Up</a></button>
+
+    </header>
+
+    <main class="main_containt">
+
+      <div class="content">
+        <h1 id="title" class="details">Best Food for your taste!</h1>
+        <p id="subtitle" class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos rem
+          culpa laudantium maiores sunt veniam suscipit eveniet cupiditate consequatur!</p>
+        <button id="order-button" class="details"><a href="">Order Now </a></button>
+      </div>
+
+
+      <!-- <div class="G"><img src="Contents/header.png" alt="Burger" class="burger_image1"></div> -->
+
+    </main>
+
+
+
+
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Timetable(Practical 4)</title>
+
+
+
+  <style>
+    * {
+
+      margin: 0;
+      padding: 0;
+    }
+
+    #TimeTable {
+      border-collapse: collapse;
+      margin-top: 40px;
+      margin-left: 10px;
+    }
+
+
+
+
+    .row-1 th {
+      padding-left: 40px;
+      border: 1px solid black;
+
+    }
+
+
+
+    .row-2 th {
+      padding-left: 40px;
+      border: 1px solid black;
+    }
+
+    .row-3 td {
+      padding-left: 40px;
+      border: 1px solid black;
+    }
+
+    .row-3 :nth-child(2) {
+      background-color: green;
+    }
+
+    .row-3 :nth-child(4),
+    .row-3 :nth-child(5) {
+      background-color: rgb(245, 204, 211);
+    }
+
+    .row-3 :nth-child(9),
+    .row-3 :nth-child(10) {
+      background-color: skyblue;
+    }
+
+
+    .row-4 td {
+      padding-left: 40px;
+      border: 1px solid black;
+    }
+
+    .row-4 :nth-child(9),
+    .row-4 :nth-child(10) {
+      background-color: green;
+    }
+
+
+
+    .row-5 td {
+      padding-left: 40px;
+      border: 1px solid black;
+    }
+
+    .row-5 :nth-child(2),
+    .row-5 :nth-child(3) {
+      background-color: green;
+    }
+
+
+    .row-5 :nth-child(7),
+    .row-5 :nth-child(8) {
+      background-color: rgb(245, 204, 211);
+    }
+
+
+
+    .row-5 :nth-child(9),
+    .row-5 :nth-child(10) {
+      background-color: rgb(245, 245, 68);
+    }
+
+
+
+
+    .row-6 td {
+      padding-left: 40px;
+      border: 1px solid black;
+    }
+
+    .row-6 :nth-child(7) {
+      background-color: rgb(245, 204, 211);
+    }
+
+    .row-6 :nth-child(8),
+    .row-6 :nth-child(9) {
+      background-color: skyblue;
+    }
+
+    .row-6 :nth-child(10) {
+      background-color: green;
+    }
+
+
+
+    .row-7 td {
+      padding-left: 40px;
+      border: 1px solid black;
+    }
+
+    .row-7 :nth-child(7),
+    .row-7 :nth-child(8) {
+      background-color: rgb(245, 245, 68);
+    }
+
+    .row-7 :nth-child(9),
+    .row-7 :nth-child(10) {
+      background-color: skyblue;
+    }
+  </style>
+
+
+
+
+
+</head>
+
+<body>
+
+  <center>
+    <h1>Ramanujan College</h1>
+    <p>University Of Delhi, Kalkaji, New Delhi-110019</p>
+    <h4>Department Of Vocation</h4>
+    <h4>Time Table: Semester III [2024-25]</h4>
+  </center>
+  <table id="TimeTable">
+    <thead>
+      <tr class="row-1">
+        <th>Period</th>
+        <th>I</th>
+        <th>II</th>
+        <th>III</th>
+        <th>IV</th>
+        <th></th>
+        <th>V</th>
+        <th>VI</th>
+        <th>VII</th>
+        <th>VIII</th>
+      </tr>
+    </thead>
+
+    <thead>
+      <tr class="row-2">
+        <th>Time</th>
+        <th>8:45:9:45</th>
+        <th>9:45-10:45</th>
+        <th>10:45-11:45</th>
+        <th>11:45-12:45</th>
+        <th>12:45-1:15</th>
+        <th>1:15-2:15</th>
+        <th>2:15-3:15</th>
+        <th>3:15-4:15</th>
+        <th>4:15-5:15</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr class="row-3">
+
+        <td>Monday</td>
+
+        <td>AEC</td>
+
+        <td> *</td>
+
+        <td>GE
+          <p>
+            DBMS(Sheetal Mam) <br> <br>
+            Porta Lab 3
+          </p>
+
+        </td>
+
+        <td>GE
+          <p>
+            DBMS(Sheetal Mam) <br> <br>
+            Porta Lab 3
+          </p>
+        </td>
+
+
+        <td> </td>
+
+        <td>Data Structure
+          <p>(Rahul Solanki) <br> <br>
+            P34
+          </p>
+
+
+        </td>
+
+
+        <td>Data Structure
+          <p>(Rahul Solanki)<br> <br>
+            P34
+
+          </p>
+        </td>
+
+
+        <td>SEC
+          <p>(Nikhil Sir)<br> <br>
+            Porta Lab 3
+          </p>
+        </td>
+
+        <td>SEC
+          <p>(Nikhil Sir)<br> <br>
+            Porta Lab 3
+          </p>
+        </td>
+
+
+      </tr>
+
+
+
+      <tr class="row-4">
+
+        <td>Tuesday</td>
+
+        <td>Data Structure
+          <p>(Rahul Sir)<br> <br>
+            Lab G03
+          </p>
+        </td>
+
+        <td> Operating System
+          <p>(Ashima Mam)<br> <br>
+            Lab G03
+          </p>
+        </td>
+
+        <td>Web Design
+          <p>
+            (Ashima Mam)<br> <br>
+            P33
+          </p>
+        </td>
+
+        <td>Web Design
+          <p>
+            (Ashima Mam)<br> <br>
+            P33
+          </p>
+        </td>
+
+
+        <td> </td>
+
+        <td>Operating System
+          <p>(Ashima Mam)<br> <br>
+            P32
+          </p>
+        </td>
+
+
+        <td>* </td>
+
+
+        <td>AEC
+          <p>(Tenzin Mam)<br> <br>
+            P17
+          </p>
+        </td>
+
+        <td>AEC
+          <p>(Tenzin Mam)<br> <br>
+            P17
+          </p>
+        </td>
+
+
+      </tr>
+
+
+
+
+      <tr class="row-5">
+
+        <td>Wednesday</td>
+
+        <td>AEC </td>
+
+        <td>AEC</td>
+
+        <td>Web Design
+          <p>
+            (Ashima Mam)<br> <br>
+            P33
+          </p>
+        </td>
+
+        <td>Operating System
+          <p>
+            (Ashima Mam)<br> <br>
+            P33
+          </p>
+        </td>
+
+
+        <td> </td>
+
+        <td>GE
+          <p>(Sheetal Mam)<br> <br>
+            Porta Lab 3
+          </p>
+        </td>
+
+
+        <td>GE
+          <p>(Sheetal Mam)<br> <br>
+            Porta Lab 3
+          </p>
+        </td>
+
+
+        <td>VAC
+          <p>(Mahima Mam)<br> <br>
+            P21
+          </p>
+        </td>
+
+        <td>VAC
+          <p>(Mahima Mam)<br> <br>
+            P21
+          </p>
+        </td>
+
+
+      </tr>
+
+
+
+
+      <tr class="row-6">
+
+        <td>Thursday</td>
+
+        <td>Data Structure
+          <p>(Rahul Solanki)<br> <br>
+            Lab G03
+          </p>
+        </td>
+
+        <td> * </td>
+
+        <td>Data Structure
+          <p>(Rahul Solanki)<br> <br>
+            P32
+          </p>
+        </td>
+
+        <td>Operating System
+          <p>
+            (Ashima Mam)<br> <br>
+            P32
+          </p>
+        </td>
+
+
+        <td> </td>
+
+        <td>GE
+          <p>(Sheetal Mam)<br> <br>
+            P36
+          </p>
+        </td>
+
+
+        <td>SEC</td>
+
+
+        <td>SEC</td>
+
+        <td>AEC
+          <p>(Dr Gaurav Sir)<br> <br>
+            P17
+          </p>
+        </td>
+
+
+      </tr>
+
+
+
+
+      <tr class="row-7">
+
+        <td>Friday</td>
+
+        <td> * </td>
+
+        <td> * </td>
+
+        <td>Web Design
+          <p>
+            (Ashima Mam)<br> <br>
+            Lab G03
+          </p>
+        </td>
+
+        <td>Web Design
+          <p>
+            (Ashima Mam)<br> <br>
+            Lab G03
+          </p>
+        </td>
+
+
+        <td> </td>
+
+        <td>VAC
+          <p>(Mahima Mam)<br> <br>
+            P21
+          </p>
+        </td>
+
+        <td>VAC</td>
+
+        <td>SEC
+          <p>(Nikhil Sir)<br> <br>
+            Porta Lab 3
+          </p>
+        </td>
+
+
+        <td>SEC
+          <p>(Nikhil Sir)<br> <br>
+            Porta Lab 3
+          </p>
+        </td>
+
+
+
+
+      </tr>
+
+
+
+
+
+
+
+
+
+
+
+    </tbody>
+  </table>
+</body>
+
+</html>
